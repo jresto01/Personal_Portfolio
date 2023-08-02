@@ -1,0 +1,44 @@
+@media (min-width: 992px) {
+    #main_carousel {
+      margin-top: 20px;
+    }
+    #main_carousel,
+    .carousel-inner,
+    .carousel-item,
+    .carousel-item.active {
+      height: 70vh;
+    }
+} 
+
+@media (min-width: 992px) {
+  #gallery_carousel {
+    margin-top: 20px;
+  }
+  #gallery_carousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 70vh;
+  }
+
+} 
+.hover-effect1:hover {
+    opacity: 0.5;
+    transform: scale(1.1);  
+  }
+  
+.hover-effect2:hover {
+    transform: translateY(-30px);
+    border-radius: 3px;
+    background: linear-gradient(50deg,
+    hsla(168, 85%, 52%, 0.5),
+    hsla(263, 88%, 45%, 0.5) 100%);
+  }
+ 
+.img_modal{
+  width: fit-content;
+}
+
+
+
+

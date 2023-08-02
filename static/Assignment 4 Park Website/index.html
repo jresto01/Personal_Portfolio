@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/52742fd808.js" crossorigin="anonymous"></script>
+<title>Park Website</title>
+<style>
+.hover-effect1:hover {
+  opacity: 0.5;
+  transform: scale(1.1);  
+}
+
+.hover-effect2:hover {
+    transform: translateY(-30px);
+    font-weight: bold;
+    border-radius: 3px;
+    background: linear-gradient(50deg,
+    hsla(168, 85%, 52%, 0.5),
+    hsla(263, 88%, 45%, 0.5) 100%);
+}
+</style>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="bg-black navbar navbar-expand-lg navbar-dark py-3 fixed-top me-l-0">
+        <div class="container-fluid ms-5">
+            <a href="#" class="navbar-brand">Parks Guide</a>
+            <button 
+                type="button"
+                class="navbar-toggler" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse me-3" id="navmenu">
+                <ul class="navbar-nav ms-auto me-5">
+                    <li class="nav-item px-3">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#tours" class="nav-link">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-us" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex px-3">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Background image -->
+    <div class="has-bg-img">
+        <img src="static/background.jpg" alt=""class="bg-img bg-cover" style="height:60vh; width:100%;">
+    </div>
+    <div class="d-flex flex-column bg-dark text-light">
+        <h2 class="p-1 bd-highlight">Antelope Canyon</h2>
+    </div>
+
+    
+    <!--First Panel-->
+    <section id="about" class="bg-muted p-10 p-lg-0 lg-10 text-center text-sm-start">
+        <div class="container mt-10 p-5">
+            <div class="row-md col-sm">
+                <div class="d-sm-flex align-items-center justify-content-evenly">
+                    <img src="static/upper.png" alt="Inside the upper Canyon" class="img-fluid shadow-lg col-lg-8 col-md-6">
+                    <h1 class="p-5 col-lg-2 col-md-6">Explore Upper Canyon.</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Second Panel-->
+    <section class="bg-dark text-light p-10 p-lg-0 pt-lg-10 p-md-10 text-center-text-sm-start shadow p-3 mb-5bg-body">
+        <div class="container p-5 bg-dark">
+            <div class="row-md col-sm">
+                <div class="d-md-flex bg-dark align-items-center justify-content-evenly">
+                    <h1 class="col-lg-2 col-md-6 pe-sm-5">Explore Lower Canyon.</h1>
+                    <img src="static/lower.png" alt="Inside the lower Canyon" class="img-fluid col-lg-8 col-md-6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Third Panel-->
+    <section id="gallery" class="p-10 p-lg-0 lg-10 bg-muted text-center text-sm-start shadow-lg">
+        <div class="container p-2">
+            <h1 class="text-center p-4">Gallery <i class="fa-regular fa-images"></i></h1>
+            <div class="row g-4 p-4">
+                <div class="col-md-6 col-lg-3 hover-effect1">
+                    <img src="static/img1.png" alt="Inside antelope canyon" class="img-fluid shadow-lg p-0 gallery-item">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 hover-effect1">
+                    <img src="static/img2.png" alt="Inside antelope canyon" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 hover-effect1">
+                    <img src="static/img3.png" alt="Inside antelope canyon" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 hover-effect1">
+                    <img src="static/img4.png" alt="Inside antelope canyon" class="img-fluid shadow-lg p-0">
+                </div>
+            </div>
+            <div class="row g-4 p-4 mb-4">
+                <div class="col-sm-12 col-md-6 col-lg-3 hover-effect1">
+                    <img src="static/img5.png" alt="Inside antelope canyon" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 hover-effect1">
+                    <img src="static/img6.png" alt="Inside antelope canyon" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 hover-effect1">
+                    <img src="static/img7.png" alt="Inside antelope canyon" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 hover-effect1">
+                    <img src="static/img8.png" alt="Inside antelope canyon" class="img-fluid shadow-lg p-0">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Fourth Panel-->
+    <section id="tours" class="p-10 p-lg-0 lg-10 bg-dark text-center text-sm-start shadow-lg text-white">
+        <div class="container p-2">
+            <h1 class="text-center p-4 "><i class="fa-solid fa-mountain-sun"></i>  Tours </h1>
+            <div class="row g-4 p-4">
+                <div class="col-sm-12 col-md-6 col-lg-4 hover-effect2">
+                    <a href="#" class="text-decoration-none" >
+                        <img src="static/img1.png" alt="Inside antelope canyon" class="rounded-top img-fluid shadow-lg p-0">
+                        <h3 class="rounded-bottom bg-white text-dark text-center p-3">Upper Canyon</h3>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 hover-effect2">
+                    <a href="#" class="text-decoration-none">
+                        <img src="static/img2.png" alt="Inside antelope canyon" class="rounded-top img-fluid shadow-lg p-0">
+                        <h3 class="rounded-bottom bg-white text-dark text-center p-3">Lower Canyon</h3>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 hover-effect2">
+                    <a href="#" class="text-decoration-none">
+                        <img src="static/img3.png" alt="Inside antelope canyon" class="rounded-top img-fluid shadow-lg p-0">
+                        <h3 class="rounded-bottom bg-white text-dark text-center p-3">Upper & Lower Canyon</h3>
+                    </a>
+                </div>
+            </div>
+        </div>          
+    </section>
+
+    <!--Footer-->
+    <section id="contact-us" class="p-10 p-lg-0 lg-10 bg-muted text-center text-sm-start shadow-lg text-dark">
+        <div class="container p-2">
+            <div class="row g-4 p-4 text-center">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="static/map.png" alt="Inside antelope canyon" class="rounded-top img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 ps-5">
+                    <h2 class="text-decoration-underline">Info</h2>
+                    <div class="location">
+                        <p><i class="fa-solid fa-location-dot"></i> Coconino County, AZ 86040 United States</p>
+                    </div>
+                    <div class="email">
+                        <p><i class="fa-regular fa-envelope"></i> example@example.com</p>
+                    </div>
+                    <div class="phone">
+                        <p><i class="fa-solid fa-mobile-screen-button"></i> Call Us: ###-###-####</p>
+                    </div>
+                    <div class="comments">
+                        <a href="#" class="text-decoration-none text-dark hover-effect1" data-bs-toggle="modal" data-bs-target="#myModal">
+                            <p><i class="fa-solid fa-comment"></i> Leave us a comment!</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 ps-5 ">
+                    <h2 class="text-decoration-underline">Social</h2>
+                    <div class="media">
+                        <a href="#" class="text-decoration-none text-dark hover-effect1">
+                            <p class=><i class="fa-brands fa-facebook"></i> Facebook</p>
+                        </a>
+                    </div>
+                    <div class="media">
+                        <a href="#" class="text-decoration-none text-dark hover-effect1">
+                            <p><i class="fa-brands fa-twitter"></i> Twitter</p>
+                        </a>
+                    </div>
+                    <div class="media">
+                        <a href="#" class="text-decoration-none text-dark hover-effect1">
+                            <p><i class="fa-brands fa-youtube"></i> Youtube</p>
+                        </a>
+                    </div>
+                    <div class="media">
+                        <a href="#" class="text-decoration-none text-dark hover-effect1">
+                            <p><i class="fa-brands fa-instagram"></i> Instagram</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>         
+    </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-g">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel">Comments</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <input class="form-control me-2" type="text" placeholder="Leave us a comment!">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

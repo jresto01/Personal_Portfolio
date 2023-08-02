@@ -1,0 +1,28 @@
+#self-img-container{
+    background: linear-gradient(50deg,
+    hsla(168, 85%, 52%, 0.5),
+    hsla(263, 88%, 45%, 0.5) 100%);
+}
+
+#self-img{
+    border-radius: 55px;
+}
+
+.hover-effect1:hover {
+    opacity: 0.5;
+    transform: scale(1.1);  
+}
+
+form {
+    padding-left: 20px;
+    color: white;
+    padding: 5px;
+    background: linear-gradient(50deg,
+    hsla(168, 85%, 52%, 0.5),
+    hsla(263, 88%, 45%, 0.5) 100%);
+    border: 3px solid lightgray;
+    border-radius: 5px;
+
+}
+
+
